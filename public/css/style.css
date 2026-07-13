@@ -1,0 +1,29 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        border-collapse: separate;
+        border-spacing: 0;
+        border: 1px solid black;
+        border-radius: 4px; /* works here */
+        overflow: hidden;
+        width: 60%;
+      }
+
+      table tr th,
+      table tr td {
+        border: 1px solid black;
+        padding: 5px 4px;
+      }
+
+      table thead{
+        background-color: #cdc3c3;
+        
+      }
+
+      .editable{
+        cursor: pointer;
+        background-color: azure;
+        transition: background-color 0.2s;
+      }
